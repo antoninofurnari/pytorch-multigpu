@@ -15,7 +15,6 @@ from torch.utils.data import DataLoader
 
 from model import pyramidnet
 import argparse
-from tensorboardX import SummaryWriter
 
 
 parser = argparse.ArgumentParser(description='cifar10 classification models')
